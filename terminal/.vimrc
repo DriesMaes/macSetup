@@ -1,1 +1,2 @@
-/Users/dmaes/.vimrc
+set number
+syntax on
