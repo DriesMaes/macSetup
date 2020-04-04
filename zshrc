@@ -10,7 +10,6 @@ export ZSH="/Users/dmaes/.oh-my-zsh"
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME=""
 
-npm install --global pure-prompt
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -78,14 +77,9 @@ plugins=(
   yarn
   colored-man-pages
   colorize
-  zsh-syntax-highlighting
-  zsh-autosuggestions
-
 )
 
 source $ZSH/oh-my-zsh.sh
-autoload -U promptinit; promptinit
-prompt pure
 
 # User configuration
 
@@ -113,3 +107,5 @@ prompt pure
 alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
 alias myip="curl ipinfo.io/ip"
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
