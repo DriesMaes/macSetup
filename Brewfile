@@ -7,6 +7,7 @@ tap "homebrew/core"
 tap "homebrew/services"
 brew "akamai"
 brew "cfn-lint"
+brew "openldap"
 brew "curl"
 brew "fzf"
 brew "git"
@@ -41,6 +42,8 @@ cask "appcleaner"
 cask "appflowy"
 cask "authy"
 cask "bitwarden"
+cask "cold-turkey-blocker"
+cask "cryptomator"
 cask "discord"
 cask "drawio"
 cask "fig"
@@ -68,6 +71,8 @@ cask "veracrypt"
 cask "visual-studio-code"
 cask "whatsapp"
 mas "Amphetamine", id: 937984704
+mas "Bear", id: 1091189122
+mas "HP Smart", id: 1474276998
 mas "Microsoft OneNote", id: 784801555
 mas "Pocket", id: 568494494
 mas "Todoist", id: 585829637
